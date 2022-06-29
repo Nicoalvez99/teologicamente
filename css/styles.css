@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+.body {
+	background-color: #101010;
+	color: #fff;
+}
+.bodyLuz {
+	background-color: #fff;
+	color:#000;
+}
+
+.titulo {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.titulo:hover .fa-brain {
+	color: rgb(252, 126, 77);
+}
+.img {
+	height: 100vh;
+}
+.colApo {
+	color: black;
+}
+.boton {
+	background-color: none;
+	border: 2px solid #fff;
+	border-radius: 0px;
+	color: #fff;
+}
+.botonDos {
+	background-color: none;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 0px;
+}
+.botonTres {
+	background-color: none;
+	border: 2px solid #000;
+	color: #000;
+	border-radius: 0px;
+}
+.fondoUno {
+	height: 100vh;
+	background-image: url("../img/img1.JPG");
+	background-size: cover;
+	background-position: 7%;
+}
+.btnLuz {
+	background: none;
+	border: none;
+}
+.fondoDos {
+	height: 100vh;
+	background-image: url("../img/img4.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.fondoTres {
+	height: 100vh;
+	background-image: url("../img/img3.JPG");
+	background-size: cover;
+	background-position: 20%;
+}
+
+.fondo {
+	height: 100vh;
+	background-image: url("../img/apologetica.JPG");
+	background-size: cover;
+	background-position: bottom;
+
+}
+.fondo h1 {
+	padding-top: 75vh;
+	font-size: 50px;
+}
+.fondo h1, .fondo p{
+	color: #fff;
+	text-align: center;
+}
+.list-canvas {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+.list-canvas a {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 100px;
+	font-size: 25px;
+}
+.list-canvas li {
+	margin: 20px 0px;
+}
+.list-canvas a:hover {
+	background-color: #505050;
+}
+.canvasColor {
+	background-color: #202020;
+	color:#fff;
+}
+
+@media (max-width: 780px){
+	#body h2 {
+		text-align: center;
+	}
+}
